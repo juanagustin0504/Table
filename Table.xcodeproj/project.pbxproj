@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		767764092373D1ED0011419F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767764082373D1ED0011419F /* AppDelegate.swift */; };
 		7677640B2373D1ED0011419F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677640A2373D1ED0011419F /* SceneDelegate.swift */; };
-		7677640D2373D1ED0011419F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677640C2373D1ED0011419F /* ViewController.swift */; };
 		767764102373D1ED0011419F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7677640E2373D1ED0011419F /* Main.storyboard */; };
 		767764122373D1EE0011419F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767764112373D1EE0011419F /* Assets.xcassets */; };
 		767764152373D1EE0011419F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767764132373D1EE0011419F /* LaunchScreen.storyboard */; };
+		7677641D2373D4640011419F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677641C2373D4640011419F /* TableViewController.swift */; };
+		7677641F2373D47C0011419F /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7677641E2373D47C0011419F /* AddViewController.swift */; };
+		767764212373D48C0011419F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767764202373D48C0011419F /* DetailViewController.swift */; };
+		767764252373D8930011419F /* dandelion clock3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 767764222373D8920011419F /* dandelion clock3.jpeg */; };
+		767764262373D8930011419F /* dandelion clock1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 767764232373D8930011419F /* dandelion clock1.jpeg */; };
+		767764272373D8930011419F /* dandelion clock2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 767764242373D8930011419F /* dandelion clock2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		767764052373D1ED0011419F /* Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Table.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		767764082373D1ED0011419F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7677640A2373D1ED0011419F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7677640C2373D1ED0011419F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7677640F2373D1ED0011419F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		767764112373D1EE0011419F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		767764142373D1EE0011419F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		767764162373D1EE0011419F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7677641C2373D4640011419F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7677641E2373D47C0011419F /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		767764202373D48C0011419F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		767764222373D8920011419F /* dandelion clock3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dandelion clock3.jpeg"; sourceTree = "<group>"; };
+		767764232373D8930011419F /* dandelion clock1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dandelion clock1.jpeg"; sourceTree = "<group>"; };
+		767764242373D8930011419F /* dandelion clock2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dandelion clock2.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +66,15 @@
 		767764072373D1ED0011419F /* Table */ = {
 			isa = PBXGroup;
 			children = (
+				767764232373D8930011419F /* dandelion clock1.jpeg */,
+				767764242373D8930011419F /* dandelion clock2.jpeg */,
+				767764222373D8920011419F /* dandelion clock3.jpeg */,
 				767764082373D1ED0011419F /* AppDelegate.swift */,
 				7677640A2373D1ED0011419F /* SceneDelegate.swift */,
-				7677640C2373D1ED0011419F /* ViewController.swift */,
 				7677640E2373D1ED0011419F /* Main.storyboard */,
+				7677641C2373D4640011419F /* TableViewController.swift */,
+				7677641E2373D47C0011419F /* AddViewController.swift */,
+				767764202373D48C0011419F /* DetailViewController.swift */,
 				767764112373D1EE0011419F /* Assets.xcassets */,
 				767764132373D1EE0011419F /* LaunchScreen.storyboard */,
 				767764162373D1EE0011419F /* Info.plist */,
@@ -127,6 +142,9 @@
 			files = (
 				767764152373D1EE0011419F /* LaunchScreen.storyboard in Resources */,
 				767764122373D1EE0011419F /* Assets.xcassets in Resources */,
+				767764252373D8930011419F /* dandelion clock3.jpeg in Resources */,
+				767764272373D8930011419F /* dandelion clock2.jpeg in Resources */,
+				767764262373D8930011419F /* dandelion clock1.jpeg in Resources */,
 				767764102373D1ED0011419F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7677640D2373D1ED0011419F /* ViewController.swift in Sources */,
 				767764092373D1ED0011419F /* AppDelegate.swift in Sources */,
+				7677641D2373D4640011419F /* TableViewController.swift in Sources */,
+				767764212373D48C0011419F /* DetailViewController.swift in Sources */,
+				7677641F2373D47C0011419F /* AddViewController.swift in Sources */,
 				7677640B2373D1ED0011419F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
